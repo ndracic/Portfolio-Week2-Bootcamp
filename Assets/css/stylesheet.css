@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* CHANGES COLOR OF HEADER */
+header {
+    background-color: #0D1821;
+}
+
+/* CHANGES HEADER FONT COLOR */
+header h1{
+    color: #F0F4EF;
+}
+
+/* STYLES THE NAV BAR LINKS */
+a {
+    color: #F0F4EF;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: dotted;
+}
+
+/* FORMATS THE  */
+header h1{
+    display: inline-flex;
+    align-items: center;
+    margin: 3px;
+    padding: 3px;
+    border: 3px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: large;
+    color: #F2DD6E;
+}
+header nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+body {
+    background-color: #F0F4EF;
+
+}
+
+.pro {
+    border: 3px solid #344966;
+    justify-content: center;
+    box-shadow: 4px 10px 8px grey ;
+    max-width: 100%;
+    max-height: fit-content;
+    
+}
+
+.prolarge{
+    border: 3px solid #344966;
+    box-shadow: 4px 10px 8px grey ;
+    max-width: 125%;
+    max-height: fit-content;
+}
+
+.projects {
+    padding: 0 20px 20px 20px;
+    color: #BFCC94;
+    background-color: #0D1821;
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    color: #BFCC94;
+}
+
+.pro:hover {
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 3px solid #BFCC94;
+    transform: scale(1.2);
+    box-shadow: 4px 10px 8px #BFCC94;
+}
+
+.prolarge:hover {
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 3px solid #BFCC94;
+    transform: scale(1.2);
+    box-shadow: 4px 10px 8px #BFCC94;
+}
+
+
+/* STYLES THE FOOTER */
+footer {
+    background-color: #0D1821;
+    color: #F0F4EF;
+    text-align: center;
+}
+
+/* COLORS FONT OF FOOTER */
+footer ul a {
+    color: #F0F4EF;
+}
+
+/* EDITS MY AVATAR */
+.profile-picture {
+    max-height: 100px;
+    width: auto;
+    border-radius: 10%;
+    filter: brightness(150%) contrast(110%)
+}
+
+/* changes color of header and footer with a smaller screen/window */
+@media screen and (max-width: 992px) {
+    header {
+      background: #BFCC94;
+    }
+  }
+@media screen and (max-width: 992px) {
+    footer {
+      background: #BFCC94;
+    }
+  }
+
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #8ac4ff;
+    }
+  }
+  
+  /* Small smartphones - body change color */
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: #8ac4ff;
+    }
+  }
